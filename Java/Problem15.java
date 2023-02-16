@@ -1,4 +1,6 @@
+/* This program requires Compilation then it can be executed*/
 import java.util.Scanner;
+//You can also create a swap function so it can be executed directly through java
 class Swap{
 	int num1;
 	int num2;
