@@ -31,15 +31,16 @@ class Problem17{
 			temp_bin1/=10;
 			temp_bin2/=10;
 
-			/* It may possible that both no. become zero but carry has 1
+			/* It may possible that both no. become zero but carry has 1*/
 			if(temp_bin1+temp_bin2==0 && carry==1) {
 				bin="1"+bin;
 			}
+			// It is possible that one binary no. becomes zero while other has some values
 			if ((temp_bin1==1 && temp_bin2==0) || (temp_bin1==0 && temp_bin2==1)) {
-				if(carry==1) {
-					bin="10"+bin;
+				if(carry==1) {// if carry = 1
+					bin="10"+bin;// 1+1 = 0 again carry = 1 hence add 10 at start of string
 				} else {
-					bin="1"+bin;
+					bin="1"+bin;// 1+0 = 1 but carry = 0 hence add 1 at start of string
 				}
 			}
 		}
