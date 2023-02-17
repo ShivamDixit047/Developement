@@ -1,1 +1,2 @@
-This contain variety of Problems and Projects in different branches.
+Java file contain some Problems which are specified in README.md file.
+Project file contain Projects using different modules of python
