@@ -19,13 +19,12 @@ Test Data :
 Expected Output :
 16
 
-
-
-4. Write a Java program to print the result of the following operations. 
+4. Write a Java program to print the result of the 
+following operations. 
 Test Data:
 a. -5 + 8 * 6
 b. (55+9) % 9
-c. 20 + -3*5 / 8
+c. 20 + -3 * 5 / 8
 d. 5 + 15 / 3 * 2 - 8 % 3
 Expected Output :
 43
@@ -204,5 +203,16 @@ Decimal Number: 4
 Input Data:
 Input a Binary Number: 1101
 Expected Output
-
 HexaDecimal value: D
+
+24. Write a Java program to convert a binary number to a Octal number. 
+Input Data:
+Input a Binary Number: 111
+Expected Output
+Octal number: 7 
+
+25. Write a Java program to convert a octal number to a decimal number. 
+Input Data:
+Input any octal number: 10
+Expected Output
+Equivalent decimal number: 8
