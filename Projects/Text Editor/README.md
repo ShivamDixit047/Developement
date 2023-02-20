@@ -1,3 +1,3 @@
 This is a normal text editor.
-Here I saved file as test.txt
-You can also change it.
+You may required tkinter module if it is present in your packages.
+pip install tkinter
